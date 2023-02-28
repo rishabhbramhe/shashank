@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#tnav{
+    padding: 0 90px;
+    margin-top: 20px;
+    height: 80px ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#logo img{
+height: 130px;
+filter: opacity(.3);
+}
+#menu img{
+    height: 39px;
+    padding-top: 6px;
+}
+#search button{
+    margin-right: 180px;
+    background-color: #f2f2f2c1;
+padding: 15px 90px;
+border: none;
+border-radius: 230px;
+font-size: 17px;
+position: relative;
+font-weight: 700;
+color: rgba(34, 34, 34, 0.258);
+}
+#search i{
+    left: 16%;
+    bottom: 15%;
+    position: absolute;
+    color: rgba(34, 34, 34, 0.258);
+    font-weight: 700;
+    font-size: 30px;
+}
+#menu{
+    gap: 30px;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+}
+#centre{
+    color: white;
+    width: 100%;
+    height: 50%;
+    margin-top: 170px;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+}
+#box1{
+    height: 80%;
+    width: 20%;
+    position: relative;
+    border-radius: 30px;
+  background: linear-gradient(to top right, #ff8c00,#ffd26ada);
+}
+#box1 img{
+    top: -55%;
+    left: 12%;
+    height: 300px;
+    position: absolute;
+}
+#words{
+    left: 35%;
+    transform: translate(-30%,-50%);
+    bottom: 15%;
+    position: absolute;
+}
+#words h1{
+    font-size: 39px;
+}
+#words2{
+    left: 35%;
+    transform: translate(-30%,-50%);
+    bottom: 15%;
+    position: absolute;
+}
+#words2 h1{
+    font-size: 39px;
+}
+#words3{
+    left: 35%;
+    transform: translate(-30%,-50%);
+    bottom: 15%;
+    position: absolute;
+}
+#words3 h1{
+    font-size: 39px;
+}
+#box2{
+    margin-top: 30px;
+    height: 65%;
+    width: 20%;
+    position: relative;
+    border-radius: 30px;
+  background: linear-gradient(to top right, #ff6f00,#ff5f87);
+}
+#box2 img{
+    top: -110%;
+    left: 20%;
+    height: 350px;
+    position: absolute;
+}
+
+#box3{
+    height: 80%;
+    width: 20%;
+    position: relative;
+    border-radius: 30px;
+  background: linear-gradient(to top right, #00b7ff,#3defff77);
+}
+#box3 img{
+    top: -55%;
+    left: 12%;
+    height: 300px;
+    position: absolute;
+}
+
+#bnav{
+    height: 100px;
+    width: 100%;
+    padding: 0 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#left{
+    color: rgba(34, 34, 34, 0.258);
+    display: flex;
+    gap: 50px;
+}
+#right{
+    display: flex;
+    gap: 50px;
+}
+
